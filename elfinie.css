@@ -1,17 +1,12 @@
 ﻿@charset "utf-8";
 
-BODY {
-  font-size : 13px;
+body {
+  font-size : 14px;
   font-family : Tahoma, Verdana, sans-serif;
 }
 
 
-.BODY2 {
-  font-size : 11pt;
-  font-family : "メイリオ", sans-serif;
-}
-
-H3 {
+h3 {
   font-size : 16px;
   font-family : "Lucida Console",sans-serif;
 }
@@ -20,12 +15,12 @@ a {
   text-decoration: none;
 }
 
-TD {
-  font-size : 10pt;
+td {
+  font-size : 11pt;
   font-family : Verdana,sans-serif;
   font-weight : 600;
 }
 
-IMG {
+img {
  border-width : 1px 1px 1px 1px;border-style : solid solid solid solid;border-color : black black black black;
 }
