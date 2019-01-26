@@ -9,20 +9,24 @@ a {
     text-decoration: none;
 }
 
-b, strong {
-    font-weight: 600;
-    font-size : 1.4rem;
-}
-
-p, li {
-    font-size : 1.4rem;
-}
-
 samp {
     display: none;
 }
 
-@media (min-width: 1200px)
+@media screen and (max-width: 1200px)
+{
+    b, strong {
+        font-weight: 600;
+        font-size : 1.4rem;
+    }
+
+    p, li {
+        font-size : 1.4rem;
+        line-height : 1.5;
+    }
+}
+
+@media screen and (min-width: 1200px)
 {
     b, strong {
         font-weight: 600;
@@ -31,6 +35,7 @@ samp {
 
     p, li {
         font-size : 3.0rem;
+        line-height : 2.0;
     }
 }
 
