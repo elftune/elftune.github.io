@@ -13,31 +13,16 @@ samp {
     display: none;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:2)
-{
-    b, strong {
-        font-weight: 600;
-        font-size : 3.0rem;
-    }
-
-    p, li {
-        font-size : 3.0rem;
-        line-height : 2.0;
-    }
+b, strong {
+    font-weight: 600;
+    font-size : 2.5rem;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:1)
-{
-    b, strong {
-        font-weight: 600;
-        font-size : 1.4rem;
-    }
-
-    p, li {
-        font-size : 1.4rem;
-        line-height : 1.5;
-    }
+p, li {
+    font-size : 2.5rem;
+    line-height : 2.0;
 }
+
 
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
