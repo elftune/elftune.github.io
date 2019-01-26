@@ -15,11 +15,23 @@ b, strong {
 }
 
 p, li {
-    font-size : 3.0rem;
+    font-size : 1.4rem;
 }
 
 samp {
     display: none;
+}
+
+@media (min-width: 1200px)
+{
+    b, strong {
+        font-weight: 600;
+        font-size : 3.0rem;
+    }
+
+    p, li {
+        font-size : 3.0rem;
+    }
 }
 
 img {
