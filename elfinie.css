@@ -7,10 +7,11 @@ a {
 
 b, strong {
     font-weight: 600;
+    font-size : 1.4rem;
 }
 
 p, li {
-    font-size : 18px;
+    font-size : 1.4rem;
 }
 
 samp {
