@@ -13,20 +13,7 @@ samp {
     display: none;
 }
 
-@media screen and (max-width: 1200px)
-{
-    b, strong {
-        font-weight: 600;
-        font-size : 1.4rem;
-    }
-
-    p, li {
-        font-size : 1.4rem;
-        line-height : 1.5;
-    }
-}
-
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1080px)
 {
     b, strong {
         font-weight: 600;
@@ -36,6 +23,19 @@ samp {
     p, li {
         font-size : 3.0rem;
         line-height : 2.0;
+    }
+}
+
+@media screen and (max-width: 1080px)
+{
+    b, strong {
+        font-weight: 600;
+        font-size : 1.4rem;
+    }
+
+    p, li {
+        font-size : 1.4rem;
+        line-height : 1.5;
     }
 }
 
