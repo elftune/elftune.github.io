@@ -15,12 +15,12 @@ samp {
 
 b, strong {
     font-weight: 600;
-    font-size : 2.5rem;
+    font-size : 2.25rem;
 }
 
 p, li {
-    font-size : 2.5rem;
-    line-height : 2.0;
+    font-size : 2.25rem;
+    line-height : 1.6;
 }
 
 
@@ -33,15 +33,4 @@ img {
     margin: 1.3em auto;
     max-width: 95%;
     border-width : 1px 1px 1px 1px;border-style : solid solid solid solid;border-color : black black black black;
-}
-
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
 }
