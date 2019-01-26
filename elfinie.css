@@ -13,7 +13,7 @@ samp {
     display: none;
 }
 
-@media screen and (min-width: 1080px)
+@media screen and (min-width: 1079px)
 {
     b, strong {
         font-weight: 600;
@@ -26,7 +26,7 @@ samp {
     }
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1079px)
 {
     b, strong {
         font-weight: 600;
