@@ -7,11 +7,11 @@ a {
 
 b, strong {
     font-weight: 600;
-    font-size : 16px;
+    font-size : 5vmin;
 }
 
 li {
-    font-size : 16px;
+    font-size : 5vmin;
     font-family : Tahoma, Verdana, sans-serif;
 }
 
