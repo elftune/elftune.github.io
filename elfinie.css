@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 
 html {
-    font-size : 100.0%
+    font-size : 62.5%
 }
 
 a {
@@ -15,7 +15,7 @@ b, strong {
 }
 
 p, li {
-    font-size : 1.4rem;
+    font-size : 3.5rem;
 }
 
 samp {
