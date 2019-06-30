@@ -24,6 +24,11 @@ p, li {
     font-family: georgia,'times new roman',serif;
 }
 
+.font2 {
+    font-size : 1.5rem;
+    line-height : 1.6;
+    font-family: georgia,'times new roman',serif;
+}
 
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
